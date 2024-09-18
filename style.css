@@ -1,0 +1,45 @@
+.container2 {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.product-card {
+    margin: 7px;
+    padding: 5px;
+}
+
+.image2 {
+    width: 300px;
+    height: 445px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.image3 {
+    width: 300px;
+    height: 435px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.text6 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgb(59, 64, 68);
+}
+
+.price {
+    font-weight: 600;
+}
+
+.text5 {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(59, 64, 68);
+}
