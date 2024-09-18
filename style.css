@@ -55,3 +55,69 @@
     font-size: 1.8em;
     margin-right: 10px;
 }
+/* sharvari */
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+  align-items: center;
+    display: flex;
+    list-style:none;
+    margin-right:20px;
+    font-family: sans-serif;
+    font-weight: 540!important;
+
+}
+.menu-items{
+  margin: 0px 10px;
+}
+.logo1{
+  margin-right: 30px;
+}
+.searchbar{
+  font-size:20px;
+  outline: none;
+  border-bottom: 2 px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding:3px 0 10px 20px;
+  text-align: center;
+
+
+}
+.nav2 .deliverybtn {
+    background: #c40c2f;
+    padding-inline:50px;
+    padding-block:10px;
+    border-radius: 30px;
+    height: 35px;
+    margin-right: 40px;
+    position: relative;
+    right: 20px;
+
+  }
+.deliverybtn > p{
+  color:white;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 15px;
+  font-size: 13px;
+  left:4px
+}
+.nav2 .deliverybtn button {
+  background: #c40c2f;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+}
+  .my-icon{
+    position:relative;
+    left:40px;
+    font-size: 25px;
+    color:gray;
+  }
