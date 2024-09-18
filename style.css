@@ -60,6 +60,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 .menu{
   align-items: center;
@@ -88,32 +90,32 @@
 
 
 }
-.nav2 .deliverybtn {
-    background: #c40c2f;
-    padding-inline:50px;
-    padding-block:10px;
-    border-radius: 30px;
-    height: 35px;
-    margin-right: 40px;
-    position: relative;
-    right: 20px;
 
-  }
-.deliverybtn > p{
-  color:white;
-  font-family: sans-serif;
-  position: relative;
-  bottom: 15px;
-  font-size: 13px;
-  left:4px
-}
-.nav2 .deliverybtn button {
-  background: #c40c2f;
-  outline: none;
-  border: none;
+
+.deliverybtn
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #c40c2f;
   color: white;
-  font-weight: 900;
+  font-family: sans-serif;
+  width:270px;
+  height: 50px;
+  /* align-items: center; */
+  justify-content: center;
+  border-radius: 25px;
+  padding: 3px 5px 3px 50px;
+  position: relative;
+  right: 50px;
+}
+.head{
   font-size: 15px;
+  font-weight: 600;
+}
+.desc{
+  font-size: 10px;
+  color: rgb(223, 223, 223);
+  word-spacing: 1px;
 }
   .my-icon{
     position:relative;
